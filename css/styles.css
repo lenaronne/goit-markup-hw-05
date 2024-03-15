@@ -581,7 +581,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .modal-form-field-icon:focus {
     fill: #ffffff;
   }
-  .modal-form-input:focus + .feedback-form-field-icon {
+  .modal-form-input:focus + .modal-form-field-icon {
     fill: #4d5ae5;
   }
   .modal-form-message {
@@ -613,6 +613,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .modal-form-checkbox-wrapper {
     margin-bottom: 24px;
+  }
+  .modal-form-checkbox-lable {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
   }
   .modal-form-own-checkbox {
     display: inline-flex;
